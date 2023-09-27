@@ -3,12 +3,12 @@ applications:
       - pneumatic drills
       - operation of system valves for air, water or chemicals
       - unloading of hoppers and bins
+      - machine tools
+      - pneumatic rammers
+      - lifting and moving objects
+      - spray painting
+      - holding for brazing or welding
       - 
-      -
-      -
-      -
-      -
-      -
       -
       -
       -
@@ -68,8 +68,8 @@ https://www.bps-uk.co.uk/2018/05/31/the-advantages-of-pneumatic-systems/#:~:text
       -
       -
 installed sensors that can help identify potential faults and anomalies:
-      -
-      -
+      - pressure sensor
+      - 
       -
       -
       -
