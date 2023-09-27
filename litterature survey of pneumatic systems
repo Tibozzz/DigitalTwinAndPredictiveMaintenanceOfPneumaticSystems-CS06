@@ -1,0 +1,49 @@
+commonly occurring faults: 
+https://www.rowse-pneumatics.co.uk/blog/post/ultimate-pneumatics-guide
+      - The most common problems are likely to be a slow-moving or drifting actuator, insufficient pressure, issues with valves or the filtration unit.
+      -Low or variable air pressure is often caused by an inadequate compressed air supply to equipment, undersized pipes or tubes, or a spike in demand from other tools or machines on the circuit.
+      -Absent or improperly used flow controls can cause cylinders to move too fast and damage themselves, or too slowly to accomplish high-speed operations.
+      -Poorly located flow controls can also interfere with cylinder speed control, if access is available to operators pursuing different goals and thus constantly changing the flow rates.
+      -Inconsistent stroke can be caused by variable or slow cylinder speeds, owing to low pressure or too small a cylinder. Conversely, too large a cylinder may require too great an airflow and stroke too slowly. Slow or erratic stroke may be due to undersized tubing and valves restricting the airflow.
+      -Cylinder banging can occur at system power-up, if the cylinder is left by the load in a retracted position on shutting off the air. When the system is subsequently powered up, air can rush in too rapidly, causing abrupt and potentially dangerous operation. Soft start valves avoid this problem by allowing gradual build-up of pressure.
+      -Loud actuation is typically due to absent flow controls or stroke-end cushioning, together with exhaust venting.
+      -
+https://blog.hydra-star.co.uk/how-to-troubleshoot-common-problems-in-your-pneumatic-system/
+      -low pressure
+      -compressor stalling, failure and faults
+      -particulate contamination
+      -high temperatures
+      -audible and visible leaks
+      -
+https://www.smcpneumatics.com/8-Reasons-Pneumatic-Systems-Fail_b_82.html
+      -Clogged Up With Contaminates
+      -Pneumatic Parts Have Become Corroded
+      -Not Properly Lubricated
+      -Operating Out Of Spec
+      -Springing A Leak
+      -Poor Maintenance Of Pneumatic Equipment
+      -Insufficient Or Incorrect Maintenance Procedures
+      -Clogged Air Filters
+      -
+      -
+      -
+      -
+      - 
+component degradation:
+      -
+      -
+      -
+      -
+      -
+      -
+      -
+      -
+      -
+environmental conditions:
+      - clean and dry air, in sufficient flow to ensure the necessary pressure
+      -
+      -
+      -
+      -
+      -
+installed sensors that can help identify potential faults and anomalies:
