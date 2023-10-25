@@ -1,3 +1,24 @@
 Etat de l'art : 
               Modélisation d'un système pneumatique 
 
+Nous souhaitons modéliser un système pneumatique à l'aide de Simscape.
+Pour cela, nous avons choisi d'utiliser un modèle représentant un simple piston commandé par une valve directionnelle.
+Dans le modèle Simulink, le piston est appelé Double Acting Actuator. 
+La vale directionnelle permet d'influer sur la pression dans la chambre A ou B du piston.
+Les chambres sont reliées par des Pipes à la valve.
+Ces Pipes permettent de transmettre le gaz entre les composants, et recoivent également en entrée la température exterieure influant directement sur la pression via la première loi de thermodynamique PV = nRT.
+La valve directionnelle est commandé par un input S. En sortie sont les ports A P B et T.
+Les ports A et B sont reliés aux chambres A et B du piston via les Pipes.
+Le port P (Pump) est rélié à un bloc Pressure Source, permettant d'envoyer du gaz dans les chambres A et B.
+Le port T (Tank) est relié au réservoir de gaz et permet de relacher la pression dans les chambres.
+Le bloc permet 3 positions différentes : 
+  - Les valves P-A et B-T sont ouvertes et la pression augmente dans la chambre A et baisse dans la chambre B
+  - Les valvles P-B et A-T sont ouvertes et la pression augmanet dans la chambre B et baisse dans la chambre A
+  - Les 4 valves sont fermées et la pression reste constante dans les 2 chambres du piston
+Ces positions sont déterminées par le Spool input, une valeur positive correspond aux premier cas, une valeur négative correspond au deuxième cas tandis qu'un valeur nulle correspond au troisième cas.
+
+Il est possible de modifier les propriétés du gaz utilisé par le système avec la loc Gas Properties (l'air est défini par défaut).
+
+
+
+
