@@ -20,9 +20,10 @@ Ces positions sont déterminées par le Spool input : une valeur positive corres
 Le piston Double Acting Actuator est donc commandé par la valve directionnelle. 
 La pression des 2 chambres induit un déplacement du piston, c'est ce déplacement que nous allons mesurer en sortie du système (en plus des différentes pressions et températures des composants).
 
-
 Il est possible de modifier les propriétés du gaz utilisé par le système avec le bloc Gas Properties (l'air est défini par défaut).
 
-
-
-
+Sur ce système, il est possible d'injecter plusieurs erreurs. 
+Tout d'abord, on peut simuler différents environnements d'utilisation via la température extérieure commandée par les blocs Atm, qui va influer sur la pression des Pipes et du piston.
+Ensuite, il est également possible de simuler un piston ne fonctionnant plus en augmentant grandement le volume de la chambre .
+Au niveau du piston, il est possible de paramétrer l'amortissement et la raideur de celui-ci
+Enfin, nous pouvons introduire des fuites de gaz dans la valve directionnelle.
